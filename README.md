@@ -22,10 +22,10 @@ El sistema utiliza:
 - Archivo `.env` con las siguientes variables:
 
 ```env
-OPENAI_API_KEY=
-LANGFUSE_PUBLIC_KEY=
-LANGFUSE_SECRET_KEY=
-LANGFUSE_HOST=
+OPENAI_API_KEY=s***************************
+LANGFUSE_SECRET_KEY="******************************"
+LANGFUSE_PUBLIC_KEY="****************************************"
+LANGFUSE_BASE_URL="https://***********.langfuse.com"
 ```
 
 ---
