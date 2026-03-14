@@ -1,16 +1,23 @@
+import os
+from dotenv import load_dotenv
+from langfuse import Langfuse
+from langfuse.langchain import CallbackHandler
 from src.agents.orchestrator import get_orchestrator
 from src.agents.hr_agent import get_hr_agent
 from src.agents.tech_agent import get_tech_agent
 from src.agents.finance_agent import get_finance_agent
 from src.agents.legal_agent import get_legal_agent
+from src.agents.evaluator_agent import get_evaluator_agent
+
+load_dotenv()
 
 def main():
-    print("Sistema Multi-Agente SaaS - Iniciado")
-    
-    # 1. Inicializamos el Orquestador y los Agentes
+    langfuse_client = Langfuse()
+    langfuse_handler = CallbackHandler()
+
     orchestrator = get_orchestrator()
+    evaluator = get_evaluator_agent()
     
-    # Mapeo de agentes (Diccionario de Estrategia)
     agents = {
         "hr": get_hr_agent(),
         "tech": get_tech_agent(),
@@ -18,32 +25,37 @@ def main():
         "legal": get_legal_agent()
     }
 
-    print("\n--- Bienvenido al Soporte Inteligente ---")
-    question = input("¿En qué puedo ayudarte hoy?: ")
+    print("\n--- Sistema Multi-Agente SaaS ---")
+    question = input("¿En qué puedo ayudarte?: ")
 
-    # 2. Paso del Orquestador (Clasificación)
-    print(f"\n[Orquestador] Analizando intención...")
-    route = orchestrator.invoke({"question": question})
+    route = orchestrator.invoke({"question": question}, config={"callbacks": [langfuse_handler]})
     topic = route.topic
-    print(f"[Orquestador] Clasificado como: {topic.upper()}")
 
-    # 3. Lógica de Enrutamiento
     if topic in agents:
         agent_chain = agents[topic]
-        print(f"[Agente {topic.upper()}] Buscando en manuales y generando respuesta...")
+        answer = agent_chain.invoke(question, config={"callbacks": [langfuse_handler]})
         
-        response = agent_chain.invoke(question)
-        print("\n" + "="*50)
-        print(f"RESPUESTA FINAL:\n{response}")
-        print("="*50)
+        score_val = evaluator.invoke({
+            "context": "Informacion recuperada de manuales internos",
+            "question": question,
+            "answer": answer
+        }, config={"callbacks": [langfuse_handler]})
+        
+        langfuse_client.create_score(
+            trace_id=langfuse_handler.last_trace_id,
+            name="calidad-rag",
+            value=float(score_val)
+        )
+        
+        print(f"\n[Departamento: {topic.upper()}]")
+        print(f"Calidad detectada: {score_val}/10")
+        print(f"BOT: {answer}")
         
     elif topic == "general":
-        print("\n" + "="*50)
-        print("RESPUESTA FINAL: Hola! Soy tu asistente SaaS. ¿Tenés alguna duda sobre HR, IT, Finanzas o Legales?")
-        print("="*50)
-        
+        print("\nBOT: ¡Hola! Soy tu asistente. ¿Tenés dudas sobre HR, Tech, Finanzas o Legales?")
+    
     else:
-        print("\n❌ Error: El orquestador devolvió una categoría no configurada.")
+        print("\nError: No se pudo determinar el departamento.")
 
 if __name__ == "__main__":
     main()
