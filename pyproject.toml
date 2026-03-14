@@ -1,0 +1,16 @@
+[project]
+name = "tp-modulo3-ai-henry"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "faiss-cpu>=1.13.2",
+    "langchain>=1.2.12",
+    "langchain-community>=0.4.1",
+    "langchain-openai>=1.1.11",
+    "langfuse>=4.0.0",
+    "pydantic>=2.12.5",
+    "python-dotenv>=1.2.2",
+    "tiktoken>=0.12.0",
+]

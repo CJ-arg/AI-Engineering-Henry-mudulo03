@@ -1,0 +1,77 @@
+1. Propósito y Alcance
+- F1: El objetivo de este documento es establecer un procedimiento estandarizado para el reembolso de gastos, las políticas de viáticos y el marco de auditoría interna aplicable a una empresa SaaS. Proporciona roles, responsabilidades, plazos y controles para gestionar los gastos de negocio de forma eficiente y con integridad.
+- F2: Alcance: aplica a empleados, contratistas y terceros que incurrieren gastos en el marco de actividades de negocio, ya sean en oficina, trabajo remoto o durante viajes. Quedan excluidos los gastos personales, las pérdidas por cambio de divisas ajenos a negocio y los gastos que no estén vinculados a actividades laborales.
+- F3: Consideraciones de cumplimiento: las políticas deben alinearse con normativas fiscales locales, principios contables aceptados y regulaciones de protección de datos. En jurisdicciones múltiples, se aplicarán las normas más restrictivas cuando existan discrepancias.
+- F4: Definiciones clave para evitar ambigüedades: gasto reembolsable, gasto no reembolsable, viático, tarjeta corporativa, y proveedor autorizado. Estas definiciones respaldan la interpretación del procedimiento por todos los interlocutores.
+
+2. Glosario y Definiciones
+- F5: Gasto reembolsable: gasto realizado en nombre de la empresa que cumple con las políticas y que es elegible para reembolso.
+- F6: Viático: asignación diaria destinada a cubrir gastos de alimentación, transporte y alojamiento durante viajes de negocio.
+- F7: Tarjeta corporativa: medio de pago emitido por la empresa para realizar gastos autorizados, con controles y conciliaciones periódicas.
+
+3. Principios y Marco Regulatorio
+- F8: Principio de transparencia: todos los gastos deben registrarse con información clara, verificable y accesible para auditoría.
+- F9: Control de costos: maximizar la relación costo-eficacia, evitar gastos innecesarios y buscar alternativas más económicas sin comprometer el negocio.
+- F10: Segregación de funciones: la persona que solicita un gasto no debe ser la misma que lo aprueba ni la que lo registra, para reducir riesgos de fraude.
+- F11: Seguridad y confidencialidad: se deben proteger datos sensibles de facturas y transacciones, manteniendo controles de acceso y registro de auditoría.
+
+4. Requisitos de Elegibilidad y Categorías de Gastos
+- F12: Gastos elegibles: viajes de negocio, hospedaje, comidas relacionadas con actividades laborales, transporte, herramientas y suscripciones necesarias para la operación SaaS.
+- F13: Gastos no elegibles: gastos personales, lujos no relacionados con negocio, entretenimiento no vinculado a cliente o actividad de ventas, y gastos que exceden políticas sin aprobación.
+- F14: Anticipos y preaprobaciones: los anticipos deben ser autorizados previamente y siguen un proceso de ajuste contra el gasto real.
+- F15: Categorías de gasto: viaje, hospedaje, comidas, transporte, herramientas de software, suscripciones y servicios auxiliares autorizados.
+- F16: Documentación mínima por gasto: factura o recibo legible, fecha, detalle del concepto, nombre del empleado y código de proyecto o cliente cuando aplique.
+
+5. Proceso de Reembolso de Gastos
+- F17: Paso 1: el empleado presenta la solicitud de reembolso a través de la plataforma designada, adjuntando recibos y evidencia de negocio.
+- F18: Paso 2: la solicitud es revisada por el supervisor directo para verificar elegibilidad y límites antes de su aprobación.
+- F19: Paso 3: el equipo de finanzas valida cumplimiento de políticas, categorías y consistencia con la documentación proporcionada.
+- F20: Paso 4: una vez aprobado, se procede a la conciliación contable y al procesamiento del pago dentro de los plazos establecidos.
+- F21: Paso 5: ante gastos incompletos o no conformes, se solicita al empleado corrección, se documentan desviaciones y se definen acciones correctivas.
+
+6. Documentación y Evidencias
+- F22: Recibos y facturas: deben ser legibles, con fecha, descripción del gasto y importe; cuando sea posible, deben desglosar impuestos y conceptos.
+- F23: Formato de evidencia: se aceptan recibos físicos o imágenes digitales; los archivos deben conservarse en formato estable y con metadatos claros.
+- F24: Moneda y tipo de cambio: en gastos en moneda extranjera, registrar la tasa de cambio aplicable y la fecha de la transacción para conversión.
+- F25: Conservación de evidencias: conservar documentación por el periodo legal local aplicable, con respaldo digital seguro.
+- F26: Organización de evidencias: registrar en un repositorio central por año y por proyecto, con metadatos (cliente, proyecto, área, responsable) para facilitar auditorías.
+
+7. Políticas de Viáticos
+- F27: Aplicación general: los viáticos cubren gastos de viaje, alojamiento y alimentación cuando hay presencia de negocio fuera de la sede, o en visitas a clientes.
+- F28: Programación de viajes: deben planificarse con antelación cuando sea posible y ceñirse a rutas y fechas aprobadas, buscando eficiencia y costo-efectividad.
+- F29: Alimentación y comidas: se establecen tasas diarias por ciudad o región y límites por persona; compras de bebidas alcohólicas no deben formar parte de la viáticos de negocio salvo excepciones autorizadas.
+- F30: Transporte: preferencia por transporte público o economías; uso de vehículos corporativos o taxis debe justificarse y contar con aprobación en caso de distancias largas o urgencias.
+- F31: Controles y consumos: las compras con tarjeta corporativa deben registrarse en la plataforma de gastos y rechazarse si no cumplen políticas o si no hay evidencia de negocio.
+
+8. Límites y Asignaciones de Viáticos
+- F32: Límites diarios por ciudad: se definen tablas internas que asignan máximo diario para alimentación, transporte y hospedaje, ajustables por costo de vida y tipo de viaje.
+- F33: Actualización de tasas: las tasas de viáticos se revisan anualmente o ante cambios significativos del costo de vida, con aprobación de la gerencia financiera.
+- F34: Viáticos para equipos remotos: se establecen políticas específicas para empleados en ubicaciones remotas o con home office, asegurando equidad y claridad.
+- F35: Excepciones: las excepciones requieren aprobación de un nivel directivo superior y deben justificarse con impacto en el negocio.
+
+9. Aprobación y Controles
+- F36: Niveles de aprobación por monto: hasta un umbral definido, la aprobación puede ser de supervisor; por montos mayores, requiere gerencia de área o finanzas; para casos críticos, aprobación de comité.
+- F37: Roles clave: empleado, supervisor, finanzas, y compliance; cada uno tiene responsabilidades claras para evitar solapamientos indebidos.
+- F38: Prohibición de autoaprobación: nadie debe aprobar sus propios gastos; se establecen controles de revisión cruzada.
+- F39: Tiempos de aprobación: las gestiones deben completarse dentro de un plazo máximo para evitar demoras en el pago.
+- F40: Controles de muestreo: se realizan revisiones aleatorias y periódicas a un porcentaje de gastos para detectar desviaciones.
+- F41: Actualización de políticas: cambios en reglas de aprobación deben pasar por un comité de políticas y ser comunicados a todos los usuarios.
+
+10. Auditoría Interna: Alcance y Objetivos
+- F42: Alcance: examina el proceso completo de gasto, reembolso y viáticos, incluyendo controles, documentación y cumplimiento.
+- F43: Objetivos: verificar cumplimiento, evaluar riesgos y proponer mejoras para reducir pérdidas, fraudes y ineficiencias.
+- F44: Frecuencia: auditorías basadas en riesgo, con revisiones periódicas al menos una vez al año y auditorías temáticas cuando ocurran incidentes.
+- F45: Metodología: uso de muestreo representativo, revisión documental, entrevistas a personal clave y verificación de conciliaciones.
+- F46: Resultados: se emiten informes de hallazgos, con recomendaciones y un plan de acción con responsables y fechas.
+
+11. Controles Internos y Cumplimiento
+- F47: Controles centrales: conciliación entre gastos reportados y pagos realizados, con reconciliaciones mensuales y evidencias archivadas.
+- F48: Segregación de funciones: se deben separar los roles de solicitud, aprobación y pago para disminuir riesgos.
+- F49: Gestión de desviaciones: cualquier excepción debe registrarse, remediarse y aprobarse mediante un proceso estandarizado.
+- F50: Auditoría de proveedores y tarjetas: se realizan revisiones periódicas de proveedores y de las tarjetas corporativas para detectar irregularidades.
+
+12. Tecnología, Herramientas y Seguridad
+- F51: Herramientas de gastos: usar una plataforma de gestión de gastos que se conecte con el ERP o contabilidad y permita flujo de aprobación y auditoría.
+- F52: Tarjetas corporativas y conciliación: integraciones para la reconciliación automática de cargos, límites y alertas de uso no autorizado.
+- F53: Integraciones y exportación de datos: API o exportaciones estándar para llevar la información a contabilidad, informes de gastos y auditorías.
+- F54: Seguridad y acceso: control de acceso basado en roles, registro de auditoría, cifrado de datos y políticas de retención para preservar la integridad de la información.

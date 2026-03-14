@@ -1,0 +1,207 @@
+A continuación presento un documento extenso y detallado orientado a una empresa SaaS, que aborda términos de servicio, acuerdos de confidencialidad (NDA) y cumplimiento de protección de datos. Es un marco de referencia que puede servir como plantilla inicial; recuerda adaptarlo a la normativa aplicable y obtener revisión legal local antes de su adopción. Este documento está estructurado en secciones numeradas con fragmentos de información claros, para poder dividirlo en al menos 50 fragmentos informativos.
+
+1. Propósito y Alcance
+- Propósito: definir las condiciones de uso del servicio, las obligaciones de confidencialidad y las reglas de tratamiento de datos para clientes y usuarios.
+- Alcance: aplica a todas las personas y entidades que acceden, usan o se benefician del SaaS, incluyendo clientes, administradores, usuarios finales, contratistas y personal autorizado.
+- Exclusiones: cuando no se use el servicio, o para otros productos o servicios ajenos al SaaS descrito.
+- Principio de cumplimiento: las partes se comprometen a cumplir la normativa aplicable de protección de datos, seguridad y privacidad.
+- Vigencia: la relación contractual comienza en la fecha de aceptación de los Términos y continúa mientras exista suscripción activa o hasta su terminación conforme al presente documento.
+
+2. Definiciones
+- Datos personales: cualquier información relacionada con una persona identificada o identificable.
+- Responsable del tratamiento (controlador): la entidad que determina los fines y medios del tratamiento de datos personales.
+- Encargado/Procesador: la entidad que procesa datos personales en nombre del responsable.
+- Subprocesador: cualquier tercero autorizado para realizar tratamiento de datos en nombre del procesador.
+- Datos del Cliente: datos que el cliente carga, gestiona o recibe a través del SaaS.
+- Datos del Usuario: datos generados por usuarios durante el uso del servicio.
+- Incidente de seguridad: cualquier evento que comprometa la confidencialidad, integridad o disponibilidad de los datos.
+- DPA: Acuerdo de Protección de Datos (Data Processing Agreement).
+- ND A/NDA: Acuerdo de confidencialidad entre las partes.
+- Transferencias internacionales: movimientos de datos personales a través de fronteras.
+- SLA: Acuerdo de Nivel de Servicio.
+- Anexos: documentos complementarios que forman parte del marco contractual.
+
+3. Alcance de los Servicios y Suscripciones
+- Descripción de servicios: listado de módulos, funcionalidades y limitaciones del SaaS.
+- Niveles de servicio (SLA): disponibilidad objetivo, tiempos de respuesta y de resolución para incidencias críticas, altas y medias.
+- Suscripciones y licencias: condiciones de adquisición, licencias de uso, usuarios autorizados y límites de capacidad.
+- Usuarios autorizados: roles permitidos (superadmin, administrador, usuario final) y sus permisos.
+- Actualizaciones y cambios: cuándo se aplican actualizaciones, mantenimiento programado y posibles interrupciones.
+- Pruebas y entornos: diferenciación entre entornos de prueba, desarrollo y producción; reglas para migraciones.
+- Capacidad de datos: límites de almacenamiento, cuotas y políticas de expansión.
+- Servicios de terceros: si aplica, aclarar integraciones y responsabilidades sobre terceros.
+- Prácticas de facturación y pago: ciclos, métodos de pago, impuestos y facturación, así como políticas de prueba o demostración.
+
+4. Términos de Uso y Usuarios Autorizados
+- Registro y cuentas: creación de cuentas, veracidad de la información, responsabilidad por credenciales.
+- Autorización y acceso: administración de roles, revocación de acceso y controles de sesión.
+- Responsabilidad del usuario: uso conforme a las leyes y políticas, no uso indebido, no suplantación.
+- Prohibiciones: prohibición de uso ilícito, distribución de malware, extracción masiva de datos sin permiso, infringir derechos de autor.
+- Auditoría de cumplimiento: derecho de la empresa SaaS a auditar el uso para asegurar cumplimiento.
+- Cambios en permisos: mecanismo para modificar roles y permisos.
+- Integraciones y API: uso de APIs, claves, límites y responsabilidad por integraciones.
+
+5. Seguridad de la Información
+- Marco de seguridad: cumplimiento con estándares reconocidos (p. ej., ISO 27001/27002, SOC 2) cuando corresponda.
+- Controles de acceso: autenticación multifactor (MFA), segregación de funciones y gestión de contraseñas.
+- Gestión de identidades: aprovisionamiento/desaprovisionamiento, integración con directorios corporativos.
+- Seguridad de datos en tránsito y en reposo: cifrado (TLS para tránsito; cifrado en reposo con algoritmos robustos para datos críticos).
+- Gestión de vulnerabilidades: escaneos periódicos, parches y actualizaciones, programa de gestión de CVE.
+- Detección y respuesta a incidentes: monitoreo, alertas, clasificación de incidentes y tiempos de respuesta.
+- Pruebas de seguridad: pruebas de penetración autorizadas, alcance y frecuencia aprobados por ambas partes.
+- Recuperación ante desastres: planes de respaldo, frecuencia de copias y pruebas de recuperación.
+- Seguridad física: controles en data centers o entornos de hosting, acceso restringido y registros de acceso.
+- Registro y monitoreo: registros de eventos, retención mínima de logs y auditorías.
+
+6. Protección de Datos y Cumplimiento
+- Roles en el tratamiento: responsable (cliente) y encargado (proveedor SaaS) según la naturaleza de los datos.
+- Bases legales para el procesamiento: consentimiento, cumplimiento de contrato, obligación legal o intereses legítimos.
+- Tipos de datos tratados: categorías de datos personales implicados (p. ej., clientes, empleados, contactos).
+- Datos sensibles y especiales: tratamiento restringido y mayor protección cuando se trate de datos sensibles.
+- Derechos de los interesados: acceso, rectificación, supresión, limitación del tratamiento, portabilidad y oposición.
+- Notificación de violaciones de datos: obligación de comunicar incidentes dentro de plazos razonables y según la normativa aplicable.
+- Evaluación de impacto de protección de datos (PIA/PIA): cuando corresponda, para procesos de alto riesgo.
+- Transferencias internacionales: reglas para mover datos fuera del ámbito local o europeo.
+- Subprocesadores: requisitos para seleccionar, notificar y restringir subprocesadores.
+- Registro de incidencias y auditoría de cumplimiento: mantener trazabilidad de decisiones de procesamiento.
+
+7. Procesamiento de Datos, Subprocesadores y Transferencias
+- Descripción de operaciones de procesamiento: finalidad, duración, tipos de datos y categorías de interesados.
+- Finalidad y base legal: describir para qué se procesan los datos y la base legal aplicable.
+- Subprocesadores: lista y procesos de aprobación; derecho del cliente a oponerse razonablemente a ciertos subprocesadores.
+- Supervisión y control: derechos de auditoría, informes de cumplimiento y acceso a documentación de seguridad de subprocesadores.
+- Duración del procesamiento: periodo durante el cual se procesarán los datos.
+- Transferencias a terceros países: garantías, cláusulas contractuales tipo (SCC) o otras salvaguardas adecuadas.
+- Migración de datos: mecanismos de exportación e importación de datos si el cliente solicita migrar datos.
+- Subcontratación adicional: condiciones para futuras subcontrataciones y comunicación a clientes.
+- Subprocesadores críticos: identidades de subprocesadores clave y criterios de selección.
+
+8. Transferencias Internacionales de Datos
+- Ubicaciones de almacenamiento y procesamiento: país/región donde se realizan operaciones.
+- Salvaguardas de transferencia: SCC, reglas corporativas vinculantes (BCR), o normativas equivalentes.
+- Evaluaciones de impacto de transferencia: evaluación de riesgos y mitigaciones en transferencias.
+- Protección adicional para datos sensibles: medidas reforzadas cuando se trate de datos sensibles.
+- Reclamaciones de clientes: procedimiento para coordinar respuestas ante solicitudes de autoridades de otros países.
+- Contrato de procesamiento: cumplimiento de las cláusulas necesarias para transferencias internacionales.
+
+9. Retención, Disponibilidad y Eliminación de Datos
+- Períodos de retención: criterios para mantener datos durante un periodo determinado.
+- Almacenamiento de copias de seguridad: frecuencia de backups, cifrado y almacenamiento seguro.
+- Disponibilidad y recuperación: RTO y RPO objetivo para servicios.
+- Eliminación segura: procedimientos para borrar datos al terminar la relación, incluyendo borrado de backups cuando sea viable.
+- Exportación de datos: mecanismos de exportación para clientes al terminar contrato o a solicitud.
+- Migración de datos: proceso para trasladar datos a un nuevo proveedor o cliente.
+- Desactivación de cuentas: efectos de desactivación y retención de datos para cumplimiento legal.
+- Archivos legales y de cumplimiento: retención de registros contractuales y de auditoría conforme a la ley.
+
+10. Incidentes de Seguridad y Notificación de Brechas
+- Definición de incidente: cualquier fallo que afecte confidencialidad, integridad o disponibilidad.
+- Clasificación de incidentes: severidad (crítico, alto, medio, bajo) y criterios de prioridad.
+- Notificación al cliente: plazos y contenido mínimo de la comunicación (tipo de datos afectados, impacto y medidas de mitigación).
+- Notificación a autoridades: obligación de reportar conforme a la normativa aplicable.
+- Cooperación con autoridades: permitir auditorías, compartir evidencia y colaborar en resoluciones.
+- Registro de incidentes: mantener un registro documentado para revisión y mejoras.
+- Prácticas de mitigación: medidas inmediatas para contener, mitigar y remediar el incidente.
+- Revisión post-incidente: informe de causas, acciones correctivas y plazos de implementación.
+
+11. Propiedad Intelectual, Licencias y Contenido
+- Propiedad del software: titularidad del software, código fuente, algoritmos y derechos de autor.
+- Licencia de uso: alcance, duración, restricciones, sublicencias y transferencia de licencias.
+- Contenido generado por el cliente: propiedad de datos aportados por el cliente y licencias necesarias para operar el servicio.
+- Contenido generado por el proveedor: derechos sobre herramientas, configuraciones y mejoras del SaaS.
+- Marcas y señales de marca: uso autorizado de marcas y logotipos en materiales de la plataforma.
+- Innovaciones y mejoras: derechos de propiedad sobre mejoras desarrolladas durante la prestación del servicio.
+- Restricciones de uso: prohibiciones de reverse engineering, descompilación, etc.
+- Derechos de terceros: cumplimiento de licencias de terceros incorporados al software.
+- Responsabilidad por contenido: responsabilidad por contenido proporcionado por los clientes.
+- Disponibilidad de APIs: condiciones de uso de APIs, límites y propiedad de los datos generados a través de ellas.
+
+12. Confidencialidad y Acuerdos de NDA
+- Obligaciones de confidencialidad: proteger información confidencial y limitar su uso.
+- Alcance de la confidencialidad: qué información está protegida y a quién se aplica.
+- Excepciones: información de dominio público, ya conocida legalmente y recibida de forma independiente.
+- DURACIÓN de la confidencialidad: período de vigencia de la obligación incluso tras terminación.
+- Destrucción/Devolución de información: procedimientos para eliminar o devolver información confidencial.
+- Medidas de seguridad para confidencialidad: controles para proteger información confidencial.
+- Notificación de divulgación obligatoria: procedimientos para divulgar por orden judicial o ley, incluyendo aviso a la otra parte cuando sea posible.
+- NDA entre terceros: requisitos y proceso para terceros que tengan acceso a información confidencial.
+- Supervivencia de cláusulas: cláusulas que siguen vigentes tras la terminación del acuerdo.
+
+13. Auditoría, Cumplimiento y Certificaciones
+- Auditorías de seguridad: alcance, frecuencia y consentimiento de las partes.
+- Requisitos de confidencialidad para auditoría: NDA y protección de datos durante auditorías.
+- Certificaciones: ISO 27001, SOC 2, PCI DSS u otras según la industria y contrato.
+- Controles y pruebas: pruebas de seguridad, revisión de políticas y procedimientos.
+- Relación con terceros: rol de auditores externos y manejo de subprocesadores en auditorías.
+- Remedios y planes de acción: plazos y responsabilidades para corregir hallazgos de auditoría.
+- Informes de cumplimiento: entrega de informes y resúmenes para el cliente.
+- Retención de evidencias de auditoría: plazos y seguridad de la documentación.
+
+14. Responsabilidad, Indemnización y Limitaciones
+- Responsabilidad máxima: límites monetarios y extención de la responsabilidad.
+- Exclusiones y daños indirectos: exclusión de lucro cesante, pérdidas de negocio y otros daños indirectos.
+- Indemnización por incumplimientos: indemnización por violaciones de DNAs, DPAs o derechos de propiedad.
+- Responsabilidad por contenido: alcance de responsabilidades por datos aportados por el cliente.
+- Fuerza mayor: exención de responsabilidad por causas fuera del control razonable de las partes.
+- Seguros: cobertura mínima de seguros de responsabilidad profesional y/o cibernética cuando aplique.
+- Salvaguarda de clientes pequeños: consideraciones para pequeñas empresas en límites de responsabilidad.
+
+15. Resolución de Disputas, Ley Aplicable y Jurisdicción
+- Ley aplicable: determinación de la ley que rige el contrato.
+- Jurisdicción y foro: tribunales competentes o cláusula de arbitraje.
+- Arbitraje: condiciones, sede, reglas y costos.
+- Negociación y mediación: pasos previos para resolver disputas sin procedimientos judiciales.
+- Notificaciones: métodos y plazos para notificar requerimientos o comunicaciones legales.
+
+16. Término, Renovación y Terminación
+- Plazo de vigencia: duración inicial y renovación automática si corresponde.
+- Rescisión por incumplimiento: condiciones y procedimientos para terminación.
+- Terminación por conveniencia: posibilidad de terminación por una o ambas partes.
+- Efectos de la terminación: acceso, migración de datos y desactivación de cuentas.
+- Disposición de datos al terminar: exportación, eliminación y limitación de acceso.
+- Sobrevivencia: cláusulas que permanecen vigentes tras la terminación.
+- Plan de transición: asistencia para migración de datos y continuidad del negocio.
+
+17. Comunicaciones, Notificaciones y Modificaciones
+- Notificaciones: dirección de contacto y método (correo electrónico, portal de clientes).
+- Cambios a los Términos: proceso para actualizar y comunicar cambios.
+- Aceptación de cambios: si el uso continúa después de cambios, se considera aceptación.
+- Idiomas: versión determinante y traducciones disponibles.
+- Contacto de soporte: canales de soporte para dudas o quejas.
+
+18. Disposiciones Generales
+- Integridad del acuerdo: este documento y anexos constituyen el acuerdo completo.
+- Divisibilidad: si una cláusula es inválida, las demás siguen en vigor.
+- Cesión: restricciones para transferir derechos o responsabilidades; consentimiento requerido.
+- Relaciones entre partes: no se crea una sociedad, agencia o relación laboral no implícita.
+- Independencia de cláusulas: la invalidez de una cláusula no afecta al resto del contrato.
+- Vigencia de políticas y alineación con normativa: las políticas internas deben cumplir la legislación vigente.
+- Idioma y interpretación: en caso de conflicto de versiones, la versión en [idioma] prevalece.
+
+Anexos (opcional; parte integrada del acuerdo)
+- Anexo A – DPA (Acuerdo de Protección de Datos)
+  - Roles: cuál es el responsable y cuál es el procesador.
+  - Categorías de datos: tipos de datos personales que se procesan.
+  - Tipos de sujetos: personas cuyos datos se tratan.
+  - Finalidad del tratamiento: por qué y para qué se procesan los datos.
+  - Transferencias internacionales: salvaguardas aplicables.
+  - Derechos de los interesados: procedimientos para responder a solicitudes.
+  - Medidas de seguridad: controles mínimos técnicos y organizativos.
+  - Subprocesadores: listado y bases legales de uso de subprocesadores.
+- Anexo B – Lista de Subprocesadores
+  - Descripción de cada subprocesador, país y función.
+  - Proceso de aprobación de nuevos subprocesadores.
+  - Notificación a clientes ante cambios de subprocesadores.
+- Anexo C – Plan de Cumplimiento y Seguridad
+  - Controles de seguridad implementados.
+  - Cronograma de auditorías y certificaciones.
+  - Plan de continuidad del negocio y pruebas de DR/BCP.
+  - Proceso de gestión de incidentes y reporte a clientes.
+
+Notas y recomendaciones finales
+- Este documento es un modelo orientativo y debe adaptarse a la jurisdicción aplicable y a la naturaleza específica de tu SaaS.
+- Se recomienda revisión por un asesor legal para asegurar la conformidad con normas locales y regionales (p. ej., GDPR, CCPA, LGPD, HIPAA, etc., según el sector y la ubicación de clientes).
+- Considera incorporar políticas complementarias: política de cookies y anuncios, política de retención de datos, política de privacidad y un acuerdo de procesamiento de datos específico (DPA) por separado si es necesario.
+- Mantén un registro de cambios de los Términos y de las políticas para transparencia con los clientes.
+
+Si quieres, puedo adaptar este esquema a un borrador más concreto con redacción completa de cada cláusula, incluyendo ejemplos de lenguaje contractual y plantillas de anexos (DPA, lista de subprocesadores, etc.). ¿Qué jurisdicción o sector específico quieres cubrir (p. ej., GDPR en la UE, LGPD en Brasil, etc.)?
